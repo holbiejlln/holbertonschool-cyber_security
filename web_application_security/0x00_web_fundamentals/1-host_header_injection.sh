@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -s -X POST "$2" -H "Host: $1" -d "$3"
+curl -s http://web0x00.hbtn/reset -H "Host: $1" -d "$2"
